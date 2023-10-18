@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hotel Room Management</h1>
+    <div class="booking-form">
+        <!-- Booking Form -->
+        <h2>Book a Room</h2>
+        <input type="text" id="user_email" placeholder="User Email">
+        <select id="room_id">
+            <option value="1">Room 1</option>
+            <option value="2">Room 2</option>
+            <!-- Add other room options dynamically -->
+        </select>
+        <input type="datetime-local" id="start_time">
+        <input type="datetime-local" id="end_time">
+        <button id="bookBtn">Book</button>
+    </div>
+    <!-- Display Bookings -->
+    <div class="bookings">
+        <h2>Bookings</h2>
+        <ul id="bookingList"></ul>
+    </div>
+    <script src="index.js"></script> <!-- Update script source to index.js -->
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.booking-form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, select {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.bookings {
+    width: 50%;
+    margin: 30px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
